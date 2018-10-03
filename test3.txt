@@ -1,2 +1,2 @@
-This  is test3!. Added for change. Change for commit.....Revert
+This  is test3!. Added for change. Change for commit
 
