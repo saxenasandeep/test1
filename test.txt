@@ -1,2 +1,2 @@
 This is a test for test file
-new test jmkl,.;/
+new test for new set up for jenkins
