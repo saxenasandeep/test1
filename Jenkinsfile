@@ -14,7 +14,7 @@ agents any
        {
            steps
            {
-               echo 'This is Build stage'
+               echo 'This is Build stage T'
            }
        }
    } 
