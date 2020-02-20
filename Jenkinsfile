@@ -17,6 +17,13 @@ agents any
                echo 'This is Build stage'
            }
        }
+       steps('Deploy')
+       {
+           steps
+           {
+               echo 'This is Deploy stagge'
+           }
+       }
    } 
 
 }
