@@ -21,7 +21,7 @@ agents any
        {
            steps
            {
-               echo 'This is Deploy stagge'
+               echo 'This is Deploy stage'
            }
        }
    } 
