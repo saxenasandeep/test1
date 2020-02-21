@@ -1,23 +1,37 @@
 pipeline
 {
-agents any
+agent any
     stages
     {
-        stage('Prepare')
+        stage('Prepare stage')
          {
         steps
           {
             echo 'This is Prepared stage for Pipeline'
           }
        }
-       stage('Build')
+       stage('Build stage')
        {
            steps
            {
                echo 'This is Build stage'
            }
        }
-       steps('Deploy')
+       stage('Verify stage')
+       {
+           steps
+           {
+               echo 'This is Verify stage'
+           }
+       }
+       stage('Package stage')
+       {
+           steps
+           {
+               echo 'This is Packaging stage'
+           }
+       }
+       stage('Deploy Stage')
        {
            steps
            {
