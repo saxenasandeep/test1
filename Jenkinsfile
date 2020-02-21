@@ -1,6 +1,7 @@
 pipeline
 {
-agents any
+agent any
+   
     stages
     {
         stage('Prepare')
