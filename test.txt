@@ -1,3 +1,0 @@
-This is a test for test file
-new test for new set up for jenkins
-
