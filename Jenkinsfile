@@ -24,7 +24,7 @@ agent any
                echo 'This is Verify stage'
            }
        }
-       stage('Package stage')
+       stage('Packaging stage')
        {
            steps
            {
