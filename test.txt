@@ -1,9 +1,0 @@
-This is a test for test file
-<<<<<<< HEAD
-This is another comments to this file
-=======
-new test for new set up for jenkins
-This is new test
-Please start the compile stage
-Hi
->>>>>>> 2a2db725ac2702866ba54bd880e05134dd6fbe49
