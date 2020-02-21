@@ -4,10 +4,6 @@ agent any
     stages
     {
         stage('Prepare stage')
-   
-    stages
-    {
-        stage('Prepare')
          {
         steps
           {
@@ -39,12 +35,7 @@ agent any
        {
            steps
            {
-               echo 'This is Deploy stage'
-       stage('Builds')
-       {
-           steps
-           {
-               echo 'This is Build stage T'
+               echo 'This is Deploy stagge'
            }
        }
    } 
