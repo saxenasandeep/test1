@@ -10,7 +10,7 @@ agents any
             echo 'This is Prepared stage for Pipeline'
           }
        }
-       stage('Build')
+       stage('Builds')
        {
            steps
            {
