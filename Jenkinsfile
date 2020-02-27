@@ -1,6 +1,10 @@
 pipeline
 {
-agent any
+  options
+  {
+    timestamps()
+  }
+  agent
     stages
     {
         stage('Prepare stage')
@@ -24,7 +28,7 @@ agent any
                echo 'This is Verify stage'
            }
        }
-       stage('Package stage')
+       stage('Packaging stage')
        {
            steps
            {
