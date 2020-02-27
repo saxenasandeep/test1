@@ -1,15 +1,15 @@
 pipeline
 {
-  options
-  {
-    timestamps()
-  }
+    options
+    {
+        timestamps()
+    }
   agent any
     stages
     {
         stage('Prepare stage')
-         {
-        steps
+        {
+           steps
           {
             echo 'This is Prepared stage for Pipeline'
           }
