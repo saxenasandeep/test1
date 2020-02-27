@@ -1,6 +1,10 @@
 pipeline
 {
-agent any
+  options
+  {
+    timestamps()
+  }
+  agent
     stages
     {
         stage('Prepare stage')
