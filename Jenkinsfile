@@ -4,7 +4,7 @@ pipeline
   {
     timestamps()
   }
-  agent
+  agent any
     stages
     {
         stage('Prepare stage')
