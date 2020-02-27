@@ -1,0 +1,28 @@
+pipeline
+{
+    agent any
+    {
+        node
+        {
+            label 'master'
+        }
+    }
+    options
+    {
+        timestamps()
+    }
+    stages
+    {
+        stage("checkout,Test & Publish")
+        {
+            steps
+            {
+                script
+                {
+                    sh 'mvn clean test'
+                }
+                step([$class : 'Publisher',reportFilenamePattern : '**/testng-result.xml'])
+            }
+        }
+    }
+}
